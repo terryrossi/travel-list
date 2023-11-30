@@ -19,6 +19,9 @@ To create a flexible List of Items Application
 ### Technical Requirements
 
 - Use of React
+  - Use State
+  - Use Props
+  - Use Click Events
 - Deploy on Github
 
 ### [Open the App Here](https://terryrossi.github.io/travel-list/)

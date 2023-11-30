@@ -10,7 +10,7 @@ export default function App() {
 	function handleAddItems(item) {
 		setItems((items) => [...items, item]);
 	}
-	console.log(items);
+	// console.log(items);
 	function handleDeleteItem(id) {
 		setItems((items) => items.filter((item) => item.id !== id));
 	}
