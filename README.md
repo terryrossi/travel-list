@@ -25,4 +25,4 @@ To create a flexible List of Items Application
 
 ### Screen Print
 
-![Travel-List App](images/travel-list.png)
+![Travel-List App](/src/images/travel-list.png)
