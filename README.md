@@ -34,7 +34,8 @@ To create a flexible List of Items Application
 
 ### Sample Code: Sort Items
 
-`const [sortBy, setSortBy] = useState('unsorted');
+`
+const [sortBy, setSortBy] = useState('unsorted');
 
     const handleSortChange = (event) => {
     	setSortBy(event.target.value);
