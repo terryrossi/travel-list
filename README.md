@@ -22,6 +22,8 @@ To create a flexible List of Items Application
   - Use State
   - Use Props
   - Use Click Events
+  - Form Input field check on max number of items = 20
+  - Form Select Sort field with 3 choices: unsorted, description, packed.
 - Deploy on Github
 
 ### [Open the App Here](https://terryrossi.github.io/travel-list/)
@@ -29,3 +31,26 @@ To create a flexible List of Items Application
 ### Screen Print
 
 ![Travel-List App](/src/images/travel-list.png)
+
+### Sample Code: Sort Items
+
+`const [sortBy, setSortBy] = useState('unsorted');
+
+    const handleSortChange = (event) => {
+    	setSortBy(event.target.value);
+    };
+
+    const sortItems = (a, b) => {
+    	if (sortBy === 'description') {
+    		return a.description.localeCompare(b.description);
+    	} else if (sortBy === 'packed') {
+    		return a.packed - b.packed;
+    	} else if (sortBy === 'unsorted') {
+    		return;
+    	}
+    	return 0;
+    };
+
+    const sortedItems = [...items].sort(sortItems);
+
+`
