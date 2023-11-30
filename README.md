@@ -22,6 +22,7 @@ To create a flexible List of Items Application
   - Use State
   - Use Props
   - Use Click Events
+  - Use Controlled elements
   - Form Input field check on max number of items = 20
   - Form Select Sort field with 3 choices: unsorted, description, packed.
 - Deploy on Github
