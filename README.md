@@ -34,24 +34,19 @@ To create a flexible List of Items Application
 
 ### Sample Code: Sort Items
 
-`
-const [sortBy, setSortBy] = useState('unsorted');
+` const [sortBy, setSortBy] = useState('unsorted');
+const handleSortChange = (event) => {
+setSortBy(event.target.value);
+};
 
-    const handleSortChange = (event) => {
-    	setSortBy(event.target.value);
-    };
-
-    const sortItems = (a, b) => {
-    	if (sortBy === 'description') {
-    		return a.description.localeCompare(b.description);
-    	} else if (sortBy === 'packed') {
-    		return a.packed - b.packed;
-    	} else if (sortBy === 'unsorted') {
-    		return;
-    	}
-    	return 0;
-    };
-
-    const sortedItems = [...items].sort(sortItems);
-
-`
+const sortItems = (a, b) => {
+if (sortBy === 'description') {
+return a.description.localeCompare(b.description);
+} else if (sortBy === 'packed') {
+return a.packed - b.packed;
+} else if (sortBy === 'unsorted') {
+return;
+}
+return 0;
+};
+const sortedItems = [...items].sort(sortItems);`
