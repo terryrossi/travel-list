@@ -32,6 +32,12 @@ To create a flexible List of Items Application
 
 ![Travel-List App](/src/images/travel-list.png)
 
-### Sample Code: Sort Items
+### Sample Code:
+
+#### Sort Items
 
 ![Sort Items](/src/images/sort-items.png)
+
+#### Controlled elements with State
+
+![Controlled elements](/src/images/controlled-elements.png)

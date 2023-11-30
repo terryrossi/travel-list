@@ -2,7 +2,7 @@ import { React, useState } from 'react';
 import Item from '../item/item';
 
 export default function ItemList({ items, onDeleteItem, onToggleItem, onClearList }) {
-	console.log('in itemlist : ', items);
+	// console.log('in itemlist : ', items);
 
 	const [sortBy, setSortBy] = useState('unsorted');
 
