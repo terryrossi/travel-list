@@ -41,4 +41,4 @@ To create a flexible List of Items Application
 
 #### Controlled elements with State
 
-![Controlled elements](/src/images/controlled-elements.png)
+![Controlled elements](/src/images/contolled-elements.png)
